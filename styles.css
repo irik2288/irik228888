@@ -1,0 +1,101 @@
+vbody{
+    
+    background:url(https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg) ;
+    background-size:1100px;
+    clamp:(18px,..,40px);
+}
+.nawbar{
+    width: 100%;
+    right:70px ;
+    box-shadow:0 4px 10px rgb(62, 241, 173) ;
+
+    }
+    .nawbar .conteiner{
+height:inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    }
+    .nawbar-menu{
+  display:inline-block;
+  list-style-type:none;
+padding-left: 15px;
+margin-bottom: 10px;
+    }
+    .nawbar-menu li {
+        display:inline-block;
+        text-align:left; 
+        color: #4d42423b;
+        padding: right;
+    }
+    .nawbar-menu li a {
+        display:flex;
+        color: #a53e3e;
+        
+        text-decoration: none;
+        font-size: 17px;
+        padding: 8px;   
+        color: rgb(255, 255, 255);
+        background-color: rgb(197, 113, 3);
+        border-radius: 15px;
+        margin-right: 19px;
+        
+        }
+      .nawbar-map{
+        display: flex;
+        flex-flow: row nowrap;
+     
+      }
+      .nawbar-brand{
+        font-weight: 900;
+        font-size: 28px;
+        text-decoration: none;
+        color:#ace42a;
+        
+        padding: 20px;
+      }
+      .nawbar-brand:hover{
+        color:#0fbbf0f8;
+          text-decoration: none;}
+           @media (max-width: 922px){
+        .nawbar-menu li a {
+          font-size: 10px;
+          margin-right:10% ;
+          padding:2px ;
+        }
+
+      }
+     @media (max-width: 983px){
+        .nawbar-menu li a {
+          display: block;
+          font-size: 13px;
+          margin-right:10% ;
+          padding:1px ;
+          border-radius: 10px;
+          .nawbar-brand{
+            font-size: 20px;
+             padding: 1px;
+             text-align: left;
+  }
+        }
+
+      }
+      @media (max-width:470px){
+        .nawbar{
+          box-shadow:5 2px 5px rgb(62, 241, 173) ;
+                  }.nawbar-brand{
+                    font-size: 17px;
+                     padding: 1px;
+                     text-align: left;
+          }
+        .nawbar-menu li a{
+font-size:10px;
+
+        }
+
+      }
+      
+
+
+      
+     
